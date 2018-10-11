@@ -1,0 +1,29 @@
+<div style="text-align:center">
+  <table border="4px">
+    <tr>
+      <div *ngIf="comidas">
+
+        <h2>DETALLES DE {{comidas.name | uppercase}}</h2>
+
+        <div>
+
+          <tr>
+            <label>Nombre:
+              <input [(ngModel)]="comidas.name" placeholder="name" />
+            </label>
+          </tr>
+          <tr>
+            <label>Imagen:
+              <input [(ngModel)]="comidas.img" placeholder="img" />
+            </label>
+          </tr>
+          <TR>
+            <label>costo:
+              <input [(ngModel)]="comidas.costo" placeholder="costo" />
+            </label>
+          </TR>
+        </div>
+      </div>
+    </tr>
+  </table>
+</div>

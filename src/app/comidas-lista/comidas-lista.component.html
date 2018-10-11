@@ -1,0 +1,56 @@
+<!-- <div style="text-align:center"> -->
+
+<div class="contenedor">
+
+  <div *ngFor="let comidas of comidas" [class.selected]="comidas === selectedcomida" (click)="onSelect(comidas)">
+
+    <div class="item">
+      <div class="img">
+        <img src="{{comidas.img}}" width="200px" height="120px">
+      </div>
+
+      <div class="detail">
+        <h2>
+          <span class="text">{{comidas.id}}</span>
+        </h2>
+        <br>
+
+        <h4 class="text">{{comidas.name}}</h4>
+        <br>
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+  <!-- >
+  </div> -->
+
+
+
+
+
+
+  <app-comidas-detalle [comidas]="selectedcomida"></app-comidas-detalle>
+
+
+  <!-- 
+   [class.selected]="comidas === selectedcomida"
+    (click)="onSelect(comidas)">
+
+    <td>
+      <h2><span class="badge">{{comidas.id}}</span></h2>
+    </td>
+    <td>
+      <h4>{{comidas.name}}</h4>
+    </td>
+    <td>
+      <img src="{{comidas.img}}" width="200px" height="120px" >
+    </td>
+    
+     
+    </tr>
+ -->

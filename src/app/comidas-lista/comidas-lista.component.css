@@ -1,0 +1,41 @@
+.contenedor{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  align-content: center;
+}
+
+
+.item{   
+  float: left;
+  width: 45%;                                                  
+  background: #ad6464;
+  border: 1px, black;
+  margin: 0.5%;  
+  border-radius: 2%;
+
+}
+
+.img{
+  text-align: center;
+  margin: 10px;
+  
+}
+
+.detail{
+  background: #af5c5c;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: oblique;
+  font-size: 18px;
+  padding: 10px;
+  border-radius:  2%;
+}
+
+.item:hover,.detail:hover{
+  background: #b13737;
+}
+      
+.text{
+  color: white;
+}

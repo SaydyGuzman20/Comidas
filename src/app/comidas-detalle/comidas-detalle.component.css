@@ -1,0 +1,25 @@
+
+  table {  color: rgb(17, 27, 36); 
+    background: #af5c5c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Arial, sans-serif; width: 500px; border-collapse: collapse;}
+
+  td, th { border: 1px solid transparent; height: 100px; }
+
+  th { background: rgb(53, 61, 146); font-weight: bold; }
+
+  td { background: #FAFAFA; text-align: center; }
+
+  tr:nth-child(even) td { background: rgb(39, 77, 158); }  
+
+  tr:nth-child(odd) td { background: rgb(114, 142, 191); } 
+
+  tr td:hover { background: rgb(167, 190, 215); color: #FFF; }
+    
+
+  input{
+    background: #af5c5c;
+  }
+
+
+
+  
